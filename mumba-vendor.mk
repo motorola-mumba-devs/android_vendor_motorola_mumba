@@ -3652,7 +3652,6 @@ PRODUCT_PACKAGES += \
     libmot_afd \
     libmot_engine_settings \
     libmotcameramodulemonitor \
-    libmotohid \
     libmotoisdataqueue \
     libmpbase \
     libopencv \
