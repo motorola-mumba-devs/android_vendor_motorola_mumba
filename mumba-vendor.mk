@@ -3550,7 +3550,6 @@ PRODUCT_PACKAGES += \
     camx.provider-impl \
     com.motorola.hardware.biometric.fingerprint-V1-ndk \
     com.motorola.hardware.biometric.fingerprint-V3-ndk \
-    com.motorola.hardware.biometric.fingerprint@1.0 \
     com.motorola.hardware.camera.postprocess-V1-ndk \
     com.motorola.hardware.display.panel-V2-ndk \
     com.motorola.hardware.display.panel@1.0 \
