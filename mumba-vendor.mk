@@ -3685,5 +3685,6 @@ PRODUCT_PACKAGES += \
     STFlashTool \
     android.hardware.biometrics.fingerprint-service-jv \
     android.hardware.biometrics.fingerprint-service.fpc \
+    fpc_ident \
     vendor.qti.camera.provider-service_64 \
     motsettings
