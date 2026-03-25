@@ -3668,7 +3668,6 @@ PRODUCT_PACKAGES += \
     libswregistrationalgo \
     libtfestriping \
     libubifocus \
-    libunwindstack \
     libvideoml \
     libvidhance \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
