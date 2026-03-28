@@ -3294,17 +3294,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/product/etc/CarrierSettings/s99999.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s99999.pb
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.camera5.adobe_scan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.adobe_scan.xml \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.camera5.lens.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.lens.xml \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.camera5.mumba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.mumba.xml \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.xml \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera5.xml \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera5.xml \
-    vendor/motorola/mumba/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera5.xml \
-    vendor/motorola/mumba/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/mumba/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
-    vendor/motorola/mumba/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/motorola/mumba/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__eai_1.10_enpu1.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__eai_1.10_enpu1.pmd \
     vendor/motorola/mumba/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.6.3_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_1.43_enpuv2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.6.3_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_1.43_enpuv2.pmd \
@@ -3670,14 +3659,8 @@ PRODUCT_PACKAGES += \
     libvidhance \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
-    MotoSignatureApp \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
-    MotCamera5 \
-    MotorolaSettingsProvider \
-    com.motorola.motosignature \
-    moto-core_services \
-    moto-settings \
     com.android.hotwordenrollment.common.util \
     com.motorola.hardware.camera.postprocess-impl.xml \
     manifest_IMoto_AIDL_Fingerprint.xml \
@@ -3686,5 +3669,4 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service-jv \
     android.hardware.biometrics.fingerprint-service.fpc \
     fpc_ident \
-    vendor.qti.camera.provider-service_64 \
-    motsettings
+    vendor.qti.camera.provider-service_64

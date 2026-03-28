@@ -6983,17 +6983,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-    name: "MotoSignatureApp",
-    owner: "motorola",
-    apk: "proprietary/system/app/MotoSignatureApp/MotoSignatureApp.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-}
-
-android_app_import {
     name: "HotwordEnrollmentXGoogleHEXAGON_WIDEBAND",
     owner: "motorola",
     apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk",
@@ -7015,55 +7004,6 @@ android_app_import {
     },
     privileged: true,
     product_specific: true,
-}
-
-android_app_import {
-    name: "MotCamera5",
-    owner: "motorola",
-    apk: "proprietary/product/priv-app/MotCamera5/MotCamera5.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-}
-
-android_app_import {
-    name: "MotorolaSettingsProvider",
-    owner: "motorola",
-    apk: "proprietary/system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.motorola.motosignature",
-    owner: "motorola",
-    jars: [
-        "proprietary/system/framework/com.motorola.motosignature.jar",
-    ],
-}
-
-dex_import {
-    name: "moto-core_services",
-    owner: "motorola",
-    jars: [
-        "proprietary/system/framework/moto-core_services.jar",
-    ],
-}
-
-dex_import {
-    name: "moto-settings",
-    owner: "motorola",
-    jars: [
-        "proprietary/system/framework/moto-settings.jar",
-    ],
 }
 
 dex_import {
@@ -7267,12 +7207,4 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
-}
-
-sh_binary {
-    name: "motsettings",
-    owner: "motorola",
-    src: "proprietary/system_ext/bin/motsettings",
-    filename: "motsettings",
-    system_ext_specific: true,
 }
