@@ -24,14 +24,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6435-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/motorola/sm6435-common/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/motorola/sm6435-common/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
+    vendor/motorola/sm6435-common/proprietary/system_ext/etc/permissions/vendor.qti.imsdatachannel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.imsdatachannel.xml \
     vendor/motorola/sm6435-common/proprietary/system_ext/etc/public.libraries-qti.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-qti.txt \
     vendor/motorola/sm6435-common/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/HapticsPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/HapticsPolicy.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/ap_gain.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ap_gain.bin \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/ap_gain_mmul.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ap_gain_mmul.bin \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/aualgo/ainr_tfv2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/ainr_tfv2.dat \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/aualgo/aualgo_comp_azs.conf:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/aualgo_comp_azs.conf \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/audio/sku_parrotlite/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrotlite/audio_effects.xml \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/audio/sku_parrotlite/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrotlite/audio_effects_config.xml \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/audio/sku_parrotlite/mixer_paths_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrotlite/mixer_paths_parrot_qrd.xml \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/audio/sku_parrotlite/resourcemanager_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrotlite/resourcemanager_parrot_qrd.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
@@ -43,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile5.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile6.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile7.xml \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_dynamic.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile1.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile15.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile16.xml \
@@ -90,25 +95,30 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/android.hardware.secure_element_gto.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element_gto.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/com.motorola.hardware.ifaa-V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.motorola.hardware.ifaa-V1-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/hw/init.mmi.services.override.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.services.override.rc \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.target.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/motorola.hardware.rpmb.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.rpmb.service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/nicmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nicmd.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/qguard.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qguard.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
@@ -116,21 +126,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/snapdragon_services.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snapdragon_services.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.diag_userdebug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag_userdebug.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf2-hal-service.rc \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
@@ -139,22 +145,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.smp2p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.smp2p.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.syshealthmon-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.syshealthmon-service.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.sensors.qesdk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qesdk.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/PreKillFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PreKillFeature.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/PrefAppsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PrefAppsFeature.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/ProCompFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/ProCompFeature.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/QAPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QAPE.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/QGPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPE.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/QGPEActionMap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPEActionMap.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/SilkyScrollsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/SilkyScrollsFeature.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/prekill/prekill_2GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_2GB.data \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/media_codecs_parrot_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_parrot_v0.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/media_codecs_performance_parrot_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_parrot_v0.xml \
@@ -173,23 +166,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/models/acd/speech_nonenpu.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech_nonenpu.eai \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/targetavcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetavcsysnodesconfigs.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/pwr/PSMPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PSMPowerOptFeature.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/qcom_widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/qcom_widevine_licenses.pfm \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/qcril_database/upgrade/config/0007.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0007.0_config.sql \
@@ -208,24 +186,21 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/qcril_database/upgrade/other/0014_version_update_modules.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0014_version_update_modules.sql \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/qguard.json:$(TARGET_COPY_OUT_VENDOR)/etc/qguard.json \
+    vendor/motorola/sm6435-common/proprietary/vendor/etc/qspa/nav_disabled.rc:$(TARGET_COPY_OUT_VENDOR)/etc/qspa/nav_disabled.rc \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-base.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-qsap-location.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/sensors-qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sensors-qesdk.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/syshealthmon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/syshealthmon.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
@@ -234,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/sysconfig/cacert-oem-defined-uids.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/cacert-oem-defined-uids.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
-    vendor/motorola/sm6435-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/wifi/adrastea/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/adrastea/WCNSS_qcom_cfg.ini \
     vendor/motorola/sm6435-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
@@ -331,6 +305,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     android.hardware.bluetooth.audio-impl_prebuilt \
+    android.hardware.secure_element-V1-ndk \
+    android.hardware.secure_element.thales.libse \
     btaudio_offload_if \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     deviceInfoServiceModuleNr \
@@ -410,6 +386,8 @@ PRODUCT_PACKAGES += \
     libQtiSocket \
     libTxPwrJni \
     libWlanServiceJni \
+    lib_ifaa_ca \
+    lib_ifaa_product \
     libadm \
     libadreno_app_profiles \
     libadreno_compiler_cl \
@@ -418,9 +396,6 @@ PRODUCT_PACKAGES += \
     libadsp_default_listener \
     libadspd \
     libadsprpc \
-    libaodoptfeature \
-    libapengine \
-    libappclassifier \
     libar-pal \
     libaualgo_azp_component \
     libaualgo_azp_wrapper \
@@ -436,7 +411,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libbtnv \
     libcacertclient \
-    libcamerapoweroptfeature \
     libcapiv2svacnnvendor \
     libcapiv2svarnnvendor \
     libcapiv2uvvendor \
@@ -468,9 +442,9 @@ PRODUCT_PACKAGES += \
     libeai_float \
     libengineplugin \
     libext_tflite_c \
+    libextra-thales \
     libfastcvdsp_stub \
     libfastcvopt \
-    libgamepoweroptfeature \
     libgdtap \
     libgeofencing \
     libgnss \
@@ -479,7 +453,6 @@ PRODUCT_PACKAGES += \
     libgpt \
     libgpudataproducer \
     libgsl \
-    libhdr_stub \
     libhdr_tm \
     libhta_hexagon_runtime_qnn \
     libidl \
@@ -493,15 +466,12 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
-    liblightninglaunches \
     liblistensoundmodel2vendor \
     liblistensoundmodelaidl \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
     liblmthermallistner \
-    liblmutils-ns \
     libloadalgo_stub \
     libloc_api_v02 \
     libloc_api_wds \
@@ -516,7 +486,6 @@ PRODUCT_PACKAGES += \
     liblocation_api_msg \
     liblocation_client_api \
     liblocation_integration_api \
-    liblocation_qesdk \
     liblocationservice \
     liblocationservice_glue \
     liblocdiagiface \
@@ -529,14 +498,13 @@ PRODUCT_PACKAGES += \
     libmdmcutback \
     libmdmdetect \
     libmdsprpc \
-    libmemperfd \
     libmemutils \
-    libmeters-ns \
-    libmeters \
     libminkdescriptor \
     libminksocket_vendor \
     libmmosal_vendor \
     libmotext_inf \
+    libnativecospatchkernel-thales \
+    libnativecosupdateapi-thales \
     libnicm \
     libnicm_dsi \
     libnicm_interface \
@@ -552,17 +520,7 @@ PRODUCT_PACKAGES += \
     libpal_net_if \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfdb \
-    libperfioctl \
     libperipheral_client \
-    libpowercore \
-    libprefapps \
-    libprekill \
-    libprocomp \
-    libpsmoptfeature \
-    libq-perflog \
-    libqapesdk \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -571,8 +529,6 @@ PRODUCT_PACKAGES += \
     libqc2audio_platform \
     libqc2audio_swaudiocodec \
     libqc2audio_utils \
-    libqc2colorconvertfilter \
-    libqc2filter \
     libqcbor \
     libqcc_file_agent \
     libqcc_sdk \
@@ -608,9 +564,6 @@ PRODUCT_PACKAGES += \
     libqdcm-mode-parser \
     libqdi \
     libqdpr \
-    libqesdk2_0 \
-    libqesdk_manager \
-    libqesdoem_query_sys \
     libqisl \
     libqmi \
     libqmi_cci \
@@ -625,23 +578,12 @@ PRODUCT_PACKAGES += \
     libqmimotext \
     libqmiservices \
     libqmiservices_ext \
-    libqms \
     libqms_client \
     libqrtr \
     libqrtrclient \
     libqseed3 \
     libqsocket \
     libqspm-mem-utils-vendor \
-    libqti-appclassifier \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-perfextn-intf \
-    libqti-qesdk-secure \
-    libqti-s3tf \
-    libqti-scenariod \
-    libqti-sslite \
-    libqti-util \
-    libqti-utils \
     libqtigefar \
     libqtiidentitycredential \
     libqtikeymaster4 \
@@ -671,8 +613,6 @@ PRODUCT_PACKAGES += \
     libsensorslog \
     libshsc \
     libsi \
-    libsilkyscrolls \
-    libskewknob \
     libslimclient \
     libsmemlog \
     libsnapdragoncolor-manager \
@@ -683,13 +623,14 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libsoc_helper \
+    libspatializerparamstorage \
     libspcom \
     libspl \
     libssc \
     libssc_default_listener \
     libssd \
-    libstandbyfeature \
-    libstreamparser \
+    libstnfc-auth \
+    libstnfc-streset \
     libsynergy_loc_api \
     libsynx \
     libsys_info_cache \
@@ -707,9 +648,7 @@ PRODUCT_PACKAGES += \
     libtlpd_logger \
     libtrustedapploader \
     libubwcp \
-    libvideooptfeature \
     libvideotxr \
-    libvideoutils \
     libvmfilexfer \
     libvmmem \
     libwifiobserver \
@@ -717,7 +656,9 @@ PRODUCT_PACKAGES += \
     libwqe \
     libxml \
     libxtadapter \
+    motorola.hardware.rpmb-V1-ndk \
     motorola.hardware.sensors-V1-ndk \
+    nfc_nci.st21nfc.st \
     qcrilInterfaces \
     qcrilIntermodulemsgs \
     qcrilMarshal \
@@ -766,6 +707,7 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libreverbaidl \
+    libswspatializeraidl \
     libvisualizeraidl \
     libvolumelistener \
     vendor.libdpmctmgr \
@@ -800,11 +742,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmiaidlservice-V1-ndk \
     vendor.qti.hardware.dpmaidlservice-V1-ndk_vendor \
     vendor.qti.hardware.dsp-V1-ndk \
-    vendor.qti.hardware.fm-V1-ndk \
-    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm-V1-ndk_vendor \
+    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
-    vendor.qti.hardware.perf2-V1-ndk \
-    vendor.qti.hardware.power.powermodule-V1-ndk \
     vendor.qti.hardware.qseecom-V1-ndk \
     vendor.qti.hardware.qteeconnector-V1-ndk \
     vendor.qti.hardware.qteeconnector@1.0 \
@@ -821,13 +761,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client-V1-ndk \
     vendor.qti.hardware.radio.uim_remote_server-V1-ndk \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
-    vendor.qti.hardware.sensorscalibrate-V1-ndk \
     vendor.qti.hardware.soter-V1-ndk \
-    vendor.qti.hardware.vibratorCL.impl \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
-    vendor.qti.hardware.vpp@2.0 \
     vendor.qti.ims.callcapabilityaidlservice-V1-ndk \
     vendor.qti.ims.configaidlservice-V1-ndk \
     vendor.qti.ims.connectionaidlservice-V1-ndk \
@@ -835,24 +772,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.imscmaidlservice-V1-ndk \
     vendor.qti.ims.rcssipaidlservice-V1-ndk \
     vendor.qti.ims.rcsuceaidlservice-V1-ndk \
-    vendor.qti.ims.uceaidlservice-V1-ndk_vendor \
+    vendor.qti.ims.uceaidlservice-V1-ndk \
     vendor.qti.latencyaidlservice-V1-ndk \
-    vendor.qti.memory.pasrmanager-V1-ndk \
     vendor.qti.qccsyshal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-halimpl \
-    vendor.qti.qesdhal-impl \
-    vendor.qti.qesdhal@1.0 \
-    vendor.qti.qesdhal@1.1 \
-    vendor.qti.qesdhal@1.2 \
-    vendor.qti.qesdhal@1.3 \
-    vendor.qti.qesdhalaidl-V2-ndk \
-    vendor.qti.qesdsys-V3-ndk \
-    vendor.qti.qesdsys-V4-ndk \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal-impl \
-    vendor.qti.snapdragonServices-V1-ndk \
-    vendor.qti.snapdragonServices.qape-V1-ndk \
     vendor.qti.syshealthmon-V1-ndk \
     vendor_lib_rfsa_adsp_libCalculator_skel_so \
     vendor_lib_rfsa_adsp_libQnnHtpV73_so \
@@ -917,6 +843,8 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.connectionaidlservice-V1-java \
+    vendor.qti.ims.datachannelservice-V2-java \
+    vendor.qti.ims.datachannelservice-V3-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
     vendor.qti.ims.factory-V2.2-java \
@@ -929,6 +857,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
+    vendor.qti.imsdatachannel \
     ImsRtpService-aidl.xml \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.radio.config.xml \
@@ -952,23 +881,21 @@ PRODUCT_PACKAGES += \
     deviceinfo-saidl.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
+    manifest_IMoto_AIDL_Rpmb.xml \
     manifest_btaudiocoreservices_qti.xml \
     manifest_identity_credential.xml \
     mwqem-saidl.xml \
     qcrilhook-saidl.xml \
-    qesdk-manager.xml \
     qms-saidl.xml \
+    qspa-modem.xml \
+    qspa-nav.xml \
     qtiradio-saidl.xml \
-    snapdragon_services.xml \
-    vendor-qti-hardware-sensorscalibrate.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.alarm.xml \
     vendor.qti.hardware.capabilityconfigstore-service.xml \
     vendor.qti.hardware.data.connectionaidl.xml \
     vendor.qti.hardware.data.iwlandata.xml \
-    vendor.qti.hardware.perf2.xml \
-    vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
     vendor.qti.hardware.qteeconnector@1.0-service.xml \
     vendor.qti.hardware.radio.am.xml \
@@ -1000,24 +927,33 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper-service-qti \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.identity-service-qti \
+    android.hardware.secure_element-service.thales \
     android.hardware.security.keymint-service-qti \
+    com.motorola.hardware.ifaa-V1-service \
+    motorola.hardware.rpmb-service \
     qcrilNrd \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore-service \
     vendor.qti.hardware.display.color-service \
-    vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
-    vendor.qti.hardware.sensorscalibrate-service \
     vendor.qti.hardware.soter-service \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
+    init.kernel.post_boot-parrot \
+    init.kernel.post_boot-ravelin \
+    init.kernel.post_boot \
+    init.qcom.class_core \
+    init.qcom.post_boot \
     init.qcom.sensors \
     init.qcrild \
+    init.qti.kernel \
+    init.qti.keymaster \
     init.qti.media \
+    init.qti.write \
     ks \
     loadalgo \
     loc_launcher \
@@ -1031,11 +967,9 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     power_off_alarm \
-    poweropt-service \
     ppd \
     qcc-vendor \
     qdcmss \
-    qesdk-manager \
     qguard \
     qmi_motext_hook \
     qmipriod \
@@ -1043,18 +977,17 @@ PRODUCT_PACKAGES += \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
-    qsap_location \
-    qsap_qapeservice \
     qseecomd \
     qti \
     qwesd \
     rmt_storage \
-    sensors-qesdk \
+    rpmbClient \
     sensors.qti \
     shsusrd \
-    snapdragon_services \
     sns_mot_client \
     sscrpcd \
+    ssgtzd \
+    system_dlkm_modprobe \
     tftp_server \
     thermal-engine-v2 \
     time_daemon \
@@ -1062,6 +995,7 @@ PRODUCT_PACKAGES += \
     vendor.dpmd \
     vendor.qti.qspmhal-service \
     vendor.qti.syshealthmon-service \
+    vendor_modprobe \
     xtra-daemon \
     xtwifi-client \
     dpmd \
@@ -1074,3 +1008,14 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
+
+ifeq ($(TARGET_HAS_FM),true)
+
+PRODUCT_PACKAGES += \
+    fm_helium \
+    libfm-hci \
+    vendor.qti.hardware.fm-V1-ndk \
+    vendor.qti.hardware.fm@1.0 \
+    fm_hci.xml
+
+endif
